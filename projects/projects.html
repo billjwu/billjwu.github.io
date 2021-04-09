@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Bill J. Wu</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="/style.css" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+        </style>
+	</head>
+	<body>
+        <header id="header">
+            <img id = "leaf" src="../images/leafedit.png">
+            <div class="tabs">
+                <a id="links" href="/">
+                    <img id = "mushroom" src="../images/maplestorymushroom.png">Home</a>
+                <a id="links" href="/projects/projects.html">
+                    <img id = "projects" src="../images/project.png">Projects</a>
+                <a id="links" href="/internships/internships.html">
+                    <img id = "internships" src="../images/intern.png">Internships</a>
+                <a id="links" onclick="openLinkedIn()">
+                    <img id = "linkedin" src="../images/linkedinicon.jpg">LinkedIn</a>
+                <a id="links" onclick="openGithub()">
+                    <img id = "github" src="../images/GitHub-Mark-120px-plus.png">Github</a>
+                <a id="links" onclick="openResume()"> 
+                    <img id = "resume" src="../images/images.jpg">Resume</a>
+            </div>
+        </header>
+        <div id="content">
+            <div id="experienceheader">
+                <p>Projects</p>
+                <div id="pomo">
+                    <p>Pomodoro Timer Web App</p>
+                    <p id="date"><i>Jan 2021 - Mar 2021</i></p>
+                    <div id="projdescription">
+                        <li>Created a website encompassing the Pomodoro Technique alongside a software engineering team</li>
+                        <li>Contributed through full-stack developement and website design using <b>Node.js, JavaScript, HTML, and CSS</b></li>
+                        <li>Tested functions and implemented test coverage using <b>Cypress</b></li>
+                        <li>Facilitated communication and teamwork between the development and design teams</li>
+                        <li><a id="links" onclick="openPomo()">Link to code repository</a></li>
+                    </div>
+                </div>
+                
+                <div id="shop">
+                    <p>Web Shop</p>
+                    <p id="date"><i>Feb 2021</i></p>
+                    <div id="projdescription">
+                        <li>Constructed a shopping website using <b>Node.js, JavaScript, HTML, and CSS</b></li>
+                        <li>Fetched an api consisting of items and created a custom web component to handle such items</li>
+                        <li><a id="links" onclick="openShop()">Link to code repository</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../scripts/scripts.js"></script>
+	</body>
+</html>
