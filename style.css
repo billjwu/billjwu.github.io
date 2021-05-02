@@ -6,13 +6,14 @@ body {
     /*padding-top: 10vh;*/
     font-family: 'Raleway', sans-serif;
     background-color: #FFEBCD;
+    
 }
 #header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    
+    background-color: #FFEBCD;
     /* background-color: var(--foreground); */
     border: 1px solid #ff9100;
     box-sizing: border-box;
@@ -24,8 +25,8 @@ body {
     left: 0;
     width: 100vw;
     height: 80vh;
-    
-    background-color: var(--foreground);
+    /* background-color: #F0FFFF; */
+    /* background-color: var(--foreground); */
     border: 1px solid #ff9100;
     box-sizing: border-box;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -46,17 +47,19 @@ body {
     box-sizing: border-box;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
-    width: 20.1vw;
-    height: 60.1vh;
+    width: 18.1vw;
+    height: 45.25vh;
     /* margin-left: 5vw; */
     /* margin-top: -2.5vw; */
 }
 #me > img {
-    width: 20vw;
-    height: 60vh;
+    width: 18vw;
+    height: 45vh;
     border-radius: 1vh;
 }
 #about {
+    /* background-color: #FFEBCD; */
+    background-color: #FFEBCD;
     text-align: left;
 
     position: absolute;
@@ -69,13 +72,14 @@ body {
 
     width: 50vw;
     height: 60vh;
-    margin-left: 25vw;
+    margin-left: 22.5vw;
     padding: 2vw;
 }
 #about > p {
     margin-top: 4.5vw;
 }
 #interests {
+    background-color: #FFEBCD;
     text-align: left;
     position: absolute;
     font-size: 1.5vw;
@@ -85,9 +89,9 @@ body {
     box-sizing: border-box;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
-    width: 15vw;
+    width: 18.5vw;
     height: 60vh;
-    margin-left: 80vw;
+    margin-left: 76.5vw;
     padding: 1vw;
     /* margin-top: 4vw; */
 }
